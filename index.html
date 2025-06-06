@@ -1,15 +1,137 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Schnelldurchlauf HTML/CSS</title>
-    <style>
-        body { background-color: rgb(102, 172, 234);}
-        h1 {color: white;}
-    </style>
+  <meta charset="UTF-8">
+  <title>Profil – David Römeth</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome CDN für Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <h1>Erste Schritte in HTML/CSS</h1>
-    <p>Meine erste Seite</p>
+
+<!--Das ist ein Kommentar-->
+<!--Das ist ein
+Block
+Kommentar-->
+
+  <div id="inner-nav"></div>
+  <div id="container">
+    <div id="profile">
+      <div id="image">
+        <img id="profile-photo" src="https://hosting.photobucket.com/2ee7cd41-77a5-4f2a-ac94-5f7db1369fd3/12afce05-a02c-4270-90ec-da6009d11a02.jpg?width=590&height=590&fit=bounds" alt="Profile-Image">
+        <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
+      </div>
+      <p id="name">David Römeth
+<p id="email">d.roemeth@gmail.com</span></p>
+      
+      <div id="social-links">
+        <a href="https://www.linkedin.com/in/davidroemeth/"><i class="fab fa-linkedin-in stroke-transparent"></i></a>
+        <a href="#"><i class="fab fa-github stroke-transparent"></i></a>
+      </div>
+      <a id="edit-intro" href="#"><i class="fas fa-pen-alt blue"></i>&nbsp;&nbsp;Edit Intro</a>
+      <hr width="100%">
+      <div id="about">
+        <p style="display:inline;">About</p>
+        <a href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
+      </div>
+      <p id="year-graduation">Year of Graduation
+<strong>2018</strong></p>
+      <p id="education">Education
+<strong>M.Sc. International Management, University of Vienna</strong></p>
+      <p id="more-about">More about me
+<span>Analytical thinker with a passion for digital innovation. I bring expertise in data analysis and digital business models, backed by hands-on experience turning insights into impact. Whether it's optimizing processes or uncovering growth opportunities, I thrive at the intersection of strategy, tech, and efficiency.</span></p>
+      <p id="telephone">Telephone
+<strong>0172 9937531</strong></p>
+      
+    </div>
+
+    <div id="info-cards">
+      <div class="card">
+        <p><i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Work Experience</p>
+        <ul>
+            <li><p class="tags">GEMA
+  <span>New Business,Key Account Management & Repertoire Management  | <span>Jul 2020 - Jul 2024 </span>
+    
+  <br><br>GEMA is one of the largest collective management organizations in the world. It represents over 90,000 members and generates more than €1 billion in annual revenue. With around 1,000 employees, GEMA licenses music usage across digital and traditional channels and is continuously expanding its activities in international partnerships and SaaS-based licensing solutions.</br>
+
+  <ul><li>Built and maintained strategic partnerships in the online music business (e.g. MusicHub, Zebralution, LyricFind)</li>
+    
+<li>Developed new business and licensing models, contributing €2.0M in revenue</li>
+<li>Acquired SaaS/BPO clients (€1.2M revenue) and negotiated directly with key decision-makers</li>
+<li>Established a Key Account Management approach, increasing client satisfaction by 62%</li>
+<li>Optimized processes at the intersection of New Business, Licensing, and Finance</li>
+<li>Conducted market research, reporting, and competitive analysis to support strategic decisions</li><br>
+  </li></ul>
+    
+
+<p class="tags">GEMA
+<span>Trainee Repertoire Management  | <span>Jul 2018 - Jul 2020 </span>
+
+
+<ul>
+<li>Increased efficiency in the member registration process (–60% processing time) through a strategic project involving Data & Process Mining</li>
+<li>Managed international key accounts in Repertoire Management (publishers and collective management organizations)</li>
+<li>Automated manual processes using Excel macros, reducing processing time by 50%</li>
+<li>Enhanced flexibility and cross-functional expertise through structured job rotations</li><br>
+</ul>
+
+<p class="tags">Virtual Identity
+<span>Social Media Ad & Community Management  | <span>Mar 2016 - Jul 2018 </span>
+
+
+<ul>
+<li>Service-oriented account management for B2B clients (including IKEA, BMW, Generali)
+
+</li>
+<li>Strategic planning and execution of social media advertising campaigns
+
+</li>
+<li>Independent management of social media channels for various B2B key accounts
+
+</li>
+</ul>
+
+</ul>
+
+
+        <a href="#">+ Add work experience, including contracts and internships</a>
+      </div>
+
+
+
+      <div class="card">
+        <p><i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Internships </p>
+        <ul>
+            <li><p class="tags">Boulesse GmbH
+  <span>Marketing & Sales  | <span>Jul 2020 - Jul 2024 </span>
+    
+  <br><br>GEMA is one of the largest collective management organizations in the world. It represents over 90,000 members and generates more than €1 billion in annual revenue. With around 1,000 employees, GEMA licenses music usage across digital and traditional channels and is continuously expanding its activities in international partnerships and SaaS-based licensing solutions.</br>
+
+  <ul><li>Built and maintained strategic partnerships in the online music business (e.g. MusicHub, Zebralution, LyricFind)</li>
+    
+<li>Developed new business and licensing models, contributing €2.0M in revenue</li>
+<li>Acquired SaaS/BPO clients (€1.2M revenue) and negotiated directly with key decision-makers</li>
+<li>Established a Key Account Management approach, increasing client satisfaction by 62%</li>
+<li>Optimized processes at the intersection of New Business, Licensing, and Finance</li>
+<li>Conducted market research, reporting, and competitive analysis to support strategic decisions</li><br>
+  </li></ul>
+  </div>
+
+      <div class="card">
+        <p><i class="fas fa-graduation-cap stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Education</p>
+        <ul>
+          <li><p class="tags">DataPlus
+<span>Data Analysis, Business Intelligence, Python, Databases & SQL, statistical methods with MS Excel, Data interfaces, Dashboards  | <span>Mar-Jun, 2025</span></span></p><a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
+          <li><p class="tags">University of Vienna
+<span>International Management, MSc | <span>2015-2018</span></span></p><a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
+          <li><p class="tags">University of Augsburg
+<span>Information Oriented Business Administration | <span>2010-2014</span></span></p><a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
+        </ul>
+        <a href="#">+ Add new</a>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
+ 
